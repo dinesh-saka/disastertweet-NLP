@@ -1,10 +1,10 @@
 # Text Classification Models Comparison for disaster or not dataset
 
-## Introduction
+## 👋 Introduction
 
 The goal of this project is to develop effective models for classifying tweets as either related to disasters or not. To achieve this, we experiment with different deep learning architectures and techniques, analyzing their accuracy, precision, recall, and F1-score.
 
-## Models
+## 🥷 Models
 
 ### 1. Naive Bayes (Baseline)
 This is our baseline model, providing a simple yet effective starting point for comparison.
@@ -30,7 +30,7 @@ This model utilizes transfer learning with a TensorFlow Hub pre-trained feature 
 ### Ensemble Model
 We combine predictions from multiple models using model ensembling/stacking techniques to improve classification accuracy further.
 
-## Results
+## 💻 Results
 
 We evaluate each model's performance on the validation dataset, considering metrics such as accuracy, precision, recall, and F1-score. Here's a summary of the results:
 
@@ -47,6 +47,6 @@ We evaluate each model's performance on the validation dataset, considering metr
 
 Additionally, we explore model ensembling/stacking to combine the predictions of multiple models, achieving a further improvement in performance.
 
-## Conclusion
+## 🔎 Conclusion
 
 Our experiments demonstrate the effectiveness of various deep learning architectures for text classification tasks. By comparing the performance of different models, we provide insights into selecting suitable approaches for similar tasks in natural language processing (NLP).
